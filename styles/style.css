@@ -68,7 +68,7 @@ display:none;
 	font-style: normal;
 }
 body {
-	background:#171717;
+	background:#2c2c2c;
 	font-size:17px
 }
 div#wrap {
@@ -80,7 +80,7 @@ div#sidebar {
 	width:220px;
 	height:100%;
 	float:left;
-	background:#171717;
+	background:#2c2c2c;
 	border-right:1px solid #2e2f2f;
 	position:fixed
 }
@@ -369,6 +369,13 @@ ul li {
 	line-height:2;
 	background:url(../images/icons/bullet.jpg) no-repeat left center;
 	padding-left:15px;
+}
+ul.b li{
+	line-height:2;
+	list-style-type:circle;
+	list-style-position:inside;
+	padding-left:10px;
+	margin-left:75px;
 }
 a:link, a:visited {
 	text-decoration:underline
