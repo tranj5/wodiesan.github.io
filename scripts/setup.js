@@ -135,6 +135,7 @@ function sendMessage() {
         url: 'contact.php',
         data: dataString,
         dataType: 'jsonp',
+        jsonp: 'jsonp_callback',
         success: function (data) {
             if (data.success == 0) {
                 var errors = '<ul><li>';
