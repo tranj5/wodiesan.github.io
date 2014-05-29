@@ -132,7 +132,7 @@ function sendMessage() {
     var dataString = $('#cform').serialize();
     $.ajax({
         type: "POST",
-        url: 'contact.php',
+        url: 'modularbranch.com/contact.php',
         data: dataString,
         dataType: 'jsonp',
         jsonp: 'jsonp_callback',
