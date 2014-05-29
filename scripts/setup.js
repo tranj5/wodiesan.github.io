@@ -134,7 +134,7 @@ function sendMessage() {
         type: "POST",
         url: 'contact.php',
         data: dataString,
-        dataType: 'json',
+        dataType: 'jsonp',
         success: function (data) {
             if (data.success == 0) {
                 var errors = '<ul><li>';
